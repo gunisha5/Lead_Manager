@@ -1,7 +1,6 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 import { User, AuthTokens } from './types';
 import { getMe } from './api';
-import { apiClient } from '@/lib/axios';
 import { queryClient } from '@/lib/react-query';
 
 interface AuthContextType {
